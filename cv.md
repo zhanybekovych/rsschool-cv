@@ -35,3 +35,14 @@ function multiply(a, b) {
 
 List of my HTML/CSS pet-projects can be found at:
 <https://github.com/zhanybekovych/for-fun>
+
+## **Education**
+
+- 2006: Issyk-Kul State University, Faculty of Foreign Languages, English Language Department
+- 2012: Issyl-Kul State University, Department of Distance Learning, Software engineer
+
+## **Languages**
+
+- **English**: Intemediate
+- **Russian**: Fluent
+- **Kyrgyz**: Native
