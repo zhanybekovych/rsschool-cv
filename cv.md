@@ -20,3 +20,13 @@ I'm responsible, highly motivated, interested in web programming and everything 
 - JavaScript
 - React
 - Figma
+
+## **Code Example**
+
+**Task:** This code does not execute properly. Try to figure out why.
+
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
+```
