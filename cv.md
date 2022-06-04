@@ -30,3 +30,8 @@ function multiply(a, b) {
   return a * b;
 }
 ```
+
+## **Work Experience**
+
+List of my HTML/CSS pet-projects can be found at:
+<https://github.com/zhanybekovych/for-fun>
