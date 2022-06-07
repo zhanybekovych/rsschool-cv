@@ -11,6 +11,13 @@ html {
 body {
   margin: 0;
   font-family: 'Heebo', sans-serif;
+  color: #21243D;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .container {
@@ -43,8 +50,6 @@ body {
   color: #FF6464;
 }
 
-
-
 .menu {
   display: flex;
   margin-left: auto;
@@ -69,4 +74,46 @@ body {
 
 .menu__link:hover {
   color: #FF6464;
+}
+
+.about {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.about__description {
+  width: 60%;
+  padding-right: 30px;
+}
+
+.about__title {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.about__position {
+  margin: 0;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FF6464;
+}
+
+.about__img-wrapper {
+  width: 30%;
+  margin-right: auto;
+}
+
+.about__img {
+  width: 100%;
+  border-radius: 50%;
 }
