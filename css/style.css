@@ -130,6 +130,10 @@ p {
   color: #ff6464;
 }
 
+.about__text {
+  margin-bottom: 30px;
+}
+
 .about__img-wrapper {
   width: 30%;
   margin-right: auto;
@@ -138,6 +142,29 @@ p {
 .about__img {
   width: 100%;
   border-radius: 50%;
+}
+
+.about__contacts {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.about__contacts-link svg {
+  width: 30px;
+  height: 30px;
+}
+
+.about__contacts-link path {
+  fill: #21243d;
+  transition: 0.3s ease-in-out;
+}
+
+.about__contacts-link:hover path {
+  fill: #ff6464;
 }
 
 .skills {
