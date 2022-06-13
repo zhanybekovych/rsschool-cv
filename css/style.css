@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -238,4 +239,37 @@ p {
 
 .project-stack li:last-child::after {
   content: "";
+}
+
+.languages-list {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.languages-list span {
+  font-weight: 500;
+}
+
+.footer {
+  padding: 0 0 30;
+  background-color: #edf7fa;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+  color: inherit;
+  transition: 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer__img {
+  width: 100px;
 }
